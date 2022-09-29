@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: rgb(2,0,36);
+    background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 43%, rgba(0,212,255,1) 100%); */
+    background-image: linear-gradient(175deg, #ee53c2 0, #cd4cb9 16.67%, #aa43ac 33.33%, #853999 50%, #622e85 66.67%, #432572 83.33%, #261d61 100%);
+    margin: 10px;
+}
+.principal{
+    width: 100%;
+    background-image: url(./Img/fondo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    height: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+#img-logo{
+    height: auto;
+    width: auto;
+}
+
+/* --------- BODY -------- */
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 14px;
+    margin-bottom: 5px;
+    
+}
+
+.gallery{
+    columns: 4 150px;
+    column-gap: .5em;
+} 
+
+/* -------- INFORMACIÓN ----------- */
+
+.panel-final{
+    text-align: center;
+    margin: 10px;    
+}
+
+h1{
+    margin-bottom: 10px;
+    color: rgb(6, 160, 160); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(6, 160, 160)    
+}
+h2{
+    margin-bottom: 5px;
+    color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#contacto{
+    margin-top: 10px;
+}
+
+a{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornsilk;
+    text-decoration: none;
+
+}
+
+@media  screen and (min-width: 301px) and (max-width: 700px){
+
+   
+    img{
+        max-width: 100%;
+        display: block;
+    }
+    
+    .gallery{
+        columns: 2 110px;
+        column-gap: .5em;
+       
+    }
+    .panel-final{
+        text-align: left;
+    }
+}
+
+
+
+
+@media  screen and (max-width: 300px) {
+    
+  
+
+    img{
+        max-width: 280px;
+        display: block;
+        
+    }
+    
+    .gallery{
+        columns: 1 80px;
+        column-gap: .5em;
+    } 
+    
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    .panel-final{
+        text-align: left;
+    }
+}  
