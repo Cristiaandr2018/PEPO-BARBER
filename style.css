@@ -6,8 +6,8 @@
 body{
     /* background: rgb(2,0,36);
     background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 43%, rgba(0,212,255,1) 100%); */
-    background-image: linear-gradient(175deg, #ee53c2 0, #cd4cb9 16.67%, #aa43ac 33.33%, #853999 50%, #622e85 66.67%, #432572 83.33%, #261d61 100%);
-    margin: 10px;
+/*     background-image: linear-gradient(175deg, #ee53c2 0, #cd4cb9 16.67%, #aa43ac 33.33%, #853999 50%, #622e85 66.67%, #432572 83.33%, #261d61 100%); */
+    margin: 2px;
 }
 .principal{
     width: 100%;
