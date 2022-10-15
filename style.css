@@ -57,7 +57,7 @@ h1{
 }
 h2{
     margin-bottom: 5px;
-    color: cornsilk;
+    color: rgb(20, 17, 15);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -68,7 +68,7 @@ h2{
 a{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: cornsilk;
+    color: rgb(20, 17, 15);
     text-decoration: none;
 
 }
